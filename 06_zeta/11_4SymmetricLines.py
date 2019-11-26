@@ -23,7 +23,6 @@ def construct_goals(A,in_x,in_y,in_z):
         if np.dot(x.n, y.n) >= 0: axis = x.n+y.n
         else: axis = x.n-y.n
         axis /= np.linalg.norm(axis)
-        print(np.dot(z.v, axis))
         n = z.n - 2*(axis * np.dot(z.n, axis))
         result.append((Line(n, np.dot(n, A.a)),))
     return result

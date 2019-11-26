@@ -7,7 +7,6 @@ def circle_in_angle(ray1, ray2):
     d = ray1.dist_from(A+v)
     A2 = A + v * (1.1*radius/d)
     center = random_point_in_angle(Ray(A2, ray1.v), Ray(A2, ray2.v))
-    print(center, radius)
     return center, radius
 
 def init(env):

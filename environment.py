@@ -295,7 +295,7 @@ class Environment:
         del self.objs[prev_obj_num:]
 
     def restart(self):
-        self.visible.difference_update(self.min_objs, range(self.obj_num))
+        self.visible.difference_update(range(self.min_objs, self.obj_num))
         self.obj_num = self.min_objs
         del self.objs[self.obj_num:]
         del self.steps[self.min_steps:]
