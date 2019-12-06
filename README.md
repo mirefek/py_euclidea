@@ -28,9 +28,9 @@ Keyboard:
 
 ## Files
 * [number]_[greek_letter]/[something].py -- levels
-* geo_object.py -- classes for geometrical types
+* geo_object.py -- classes for geometrical types (Point, Line, Circle + drawing them)
 * constructions.py -- helper functions for numerical constructions -- e.g. intersection of two lines
-* tools.py -- implementation of the tools (Point, Line, Circle, ...)
+* tools.py -- implementation of the tools (Point, Compass, Intersection, ...)
 * environment.py -- loading level, putting tools and goals together
 * euclidea.py -- interactive program
 * multi_level.py -- environment keeping multiple levels inside, intended for reinforcement learning agents, not tested yet
