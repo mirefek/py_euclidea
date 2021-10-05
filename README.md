@@ -36,3 +36,6 @@ Keyboard:
 * multi_level.py -- environment keeping multiple levels inside, intended for reinforcement learning agents, not tested yet
 * level_guessing.py -- generation of pairs (picture, level index), intended for basic experiments with image recognition
 * bruteforce.py -- experiments with finding short solutions of certain levels by examining all posibilities (not related to most of the previous)
+
+## Disclaimer
+The author of py_euclidea is not associated with the original [Euclidea game](http://euclidea.xyz) by [HIL company](http://www.hil-hk.com/). The company agreed with using Euclidea for research in artificial intelligence. [Benevolent licensing of this code](LICENSE.md) is not a copyright infingement since py_euclidea is written from scratch. On the other hand, the author of py_euclidea would consider nicer (although with no legal consequences) if this code remains for the purpose of AI research rather than say building a competition for Euclidea.
